@@ -1,5 +1,6 @@
 import torch
 import sys
+import pandas as pd
 
 def compute_reward(seq, actions, ignore_far_sim=True, temp_dist_thre=20, use_gpu=False):
     """
